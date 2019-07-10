@@ -5,9 +5,7 @@ def subString(string):
     max_len = 1       
     prev_index = 0   
     i = 0
-  
     visited = [-1] * NO_OF_CHARS 
-  
     visited[ord(string[0])] = 0
   
     for i in range(1,n): 
@@ -29,3 +27,4 @@ st=input()
 print("The input string is "+st) 
 length = subString(st) 
 print(str(length))
+
